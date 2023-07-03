@@ -1,0 +1,188 @@
+/*Responsive*/
+@media(max-width:750px){
+  
+  body{
+    
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-attachment: fixed; 
+      
+  }
+    
+    .logo{
+      margin-top: 30px;
+      margin-left: -30%;
+      width: 100%;
+}
+    .menu-btn{
+      font-size: 30px;
+      margin-top: 30px;
+      margin-left: 3em;
+      display: block;
+      z-index: 999;
+      cursor: pointer;
+    }
+    /* navbar area*/
+    .navbar .menu{
+      position: fixed;
+      height:10%;
+      width: 80%;
+      left:-100%;
+      top:10%;
+      text-align: center;
+      border-radius:50px;
+      transition: all 0.3s ease;
+    }
+    .navbar .menu.show{
+     left: 0;
+    }
+    .navbar .menu li{
+      display:block;
+      
+    }
+    .navbar .menu li a{
+     display: inline-block;
+     margin:  10px 0;
+     font-size: 20px;
+  }
+  
+  /* main text*/
+
+  .container .max-width .text-1 {
+    margin-top:15rem;
+    margin-left: -20%;
+    font-size: 27px;
+    width: 100rem;
+
+  
+  }
+
+  .text-para{
+    
+    margin: auto;
+    text-align: center;
+    margin-top:10%;
+    font-size: 23px;
+    margin-left:10%;
+    width:70%;
+  }
+  .join-waitlist{
+    font-size: 10px;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 7rem;
+    width: 30%;
+   
+  }
+  /* what matters to*/
+  .main-text{
+    font-size: 30px;
+    letter-spacing: -2.30px;
+    margin-left: -6px;
+    width: 100%;
+  }
+  .main-box-text {
+  display: block;
+  justify-content: space-between;
+   margin-left:10%;
+  }
+
+  .box-1 p,.box-2 p,
+  .box-3 p{
+    display: inline-block;
+    font-size: 16px;
+  }
+  .box-1 h4,.box-2 h4,.box-3 h4{
+    margin: auto;
+    font-size: 26px;
+  }
+  .box-1,.box-2,.box-3 {
+    margin-left: 10%;
+    width:70%;
+   
+  }
+  /* divers area*/
+  .diverse {
+    letter-spacing: -2px;
+    text-align: center;
+    margin-left: -15%;
+    font-size: 35px;
+    width: 100%;
+    
+}
+  .paratext{
+    margin-left: -40px;
+    margin-top: 20%;
+    font-size: 20px;
+    width:100%;
+  }
+  /* practise area*/
+  .main-practiseText{
+    font-size: 20px;
+    margin-left: 10px;
+    width: 100%;
+}
+.main-practiseTex h1{
+  margin: auto;
+}
+  .common-1,.common-2,.common-3,.common-4{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+  
+  }
+  .inner-btn{
+    justify-content: space-around;
+     display: grid;
+      gap: 3%;
+      grid-template-rows: auto auto;
+      grid-template-columns: 150px 150px;
+      
+      
+  }
+  .m-text h2 {
+  
+  font-size: 23px;
+  width: 500px;
+  letter-spacing:-1px;
+  margin-left: -20%;
+}
+
+.custom-btn{
+   width: 35%;
+  text-align: center;
+  margin-left: 30%;
+  border-radius: 25px;
+  margin-top: -25%;
+}
+.big-img{
+
+  margin-left: 35px;
+  margin-top: 25%;
+}
+hr{
+  margin-left:30px;
+  opacity: 0.5;
+}
+footer {
+ 
+  margin-left:10px;
+  
+}
+.footer-text{
+visibility: hidden;
+}
+.icon .icon-1{
+  margin-left:18em;
+  margin-top: -18%;
+}
+.icon .icon-2{
+  margin-left:20em;
+  margin-top: -6%;
+}
+}
+  
+
+  
